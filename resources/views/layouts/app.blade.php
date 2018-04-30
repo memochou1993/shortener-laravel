@@ -4,8 +4,8 @@
         @include('includes.head')
     </head>
     
-    <body>
-        <div id="app">
+    <body class="pushable">
+        <div id="app" class="pusher">
             @yield('content')
         </div>
     </body>
