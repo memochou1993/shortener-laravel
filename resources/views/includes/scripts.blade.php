@@ -1,5 +1,5 @@
-    <script src="{{ asset('public/js/app.js') }}"></script>
-    <script src="{{ asset('public/js/semantic.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/semantic.min.js') }}"></script>
 
     <script>
 		$(document).ready(function() {
