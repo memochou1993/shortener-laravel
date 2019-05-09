@@ -2,7 +2,7 @@
     <div class="row">
         <div class="five wide column">
             <div id="loading">
-                <img src="{{ asset('public/img/loading.svg') }}" alt="Loading...">
+                <img src="{{ asset('img/loading.svg') }}" alt="Loading...">
             </div>
 
             <div class="ui success message fluid" hidden>
