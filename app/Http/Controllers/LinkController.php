@@ -50,7 +50,7 @@ class LinkController extends Controller
             ->first();
 
         $this->validate($request, [
-            'link' => 'required|max:255|url|active_url',
+            'link' => 'required|max:255|active_url',
         ]);
         
         $prepared_link->update([
