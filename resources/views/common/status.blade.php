@@ -9,7 +9,7 @@
                 <h1>Successfully Created!</h1>
 
                 <div class="ui big action input fluid">
-                    <input type="text" value="surl.epoch.tw/{{ $new_link }}">
+                    <input type="text" value="{{ config('app.url') }}/{{ $new_link }}">
 
                     <button class="ui teal icon button">
                         <i class="copy icon"></i>

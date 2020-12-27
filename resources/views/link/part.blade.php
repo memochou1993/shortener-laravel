@@ -14,7 +14,7 @@
                 <tr>
                     <td>
                         <a href="{{ route('redirect', $link->code) }}" target="_blank">
-                            surl.epoch.tw/{{ $link->code }}
+                            {{ config('app.url') }}/{{ $link->code }}
                         </a>
                     </td>
                     <td>
