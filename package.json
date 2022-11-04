@@ -27,6 +27,6 @@
 	"license": "ISC",
 	"description": "",
 	"dependencies": {
-		"semantic-ui": "^2.3.1"
+		"semantic-ui": "^2.5.0"
 	}
 }
